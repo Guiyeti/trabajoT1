@@ -1,0 +1,32 @@
+A. Imágenes
+Buscar 4 fotos en formato .jpg, cuyos originales tengan
+- horizontales al menos 1920 pixels de ancho.
+- verticales al menos 1200 pixels de ancho.
+
+Luego le cambiamos las dimensiones de la siguiente manera:
+Foto 1: vertical que tenga 1200 pixels de ancho.
+Foto 2: vertical que tenga 600 pixels de ancho.
+Foto 3: horizontal que tenga 1920 pixels de ancho.
+Foto 4: horizontal que tenga 800 pixels de ancho.
+
+Las 4 fotos estarán en formato .heic, formato .webp, y formato .jpg, en ese orden de preferencia en caso de que el navegador soportara más de uno de ellos.
+
+Si fuese un navegador viejo que no reconozca el elemento picture, deberá mostrar cualquiera de las imágenes originales, a vuestra elección, en formato .jpg original
+
+B. Portarretraros (contenedor de las imágenes)
+Su forma se adecuará de la orientación del viewport, o sea que para vieport horizontal corresponderá un portarretratos horizontal, y para uno vertical un viewport vertical.
+Sus tamaños máximos serán los siguientes:
+- portarretratos HORIZONTAL:
+    ancho: 1200 px;
+    alto: 800 px;
+- portarretratos VERTICAL:
+    ancho: 600px;
+    alto: 900px;
+
+C. Deben asegurarse de que nunca se elegirá para mostrar una imagen cuyas dimensiones sean menores que el portarretratos, para evitar el efecto pixelado.
+
+PRESTAR ATENCIÓN en la grabación... le foto está siempre perfectamente centrada.
+
+RUBRICA:
+se descontará 1 punto por cada requisito que no se logre, siendo 10 puntos la nota máxima.
+Las notas se ajustarán a la nota máxima de la clase.
